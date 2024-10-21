@@ -152,11 +152,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .hero__content {
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .hero__title {
@@ -164,10 +164,13 @@ img {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.2;
+  text-wrap: wrap;
+
 }
 
 .hero__title--primary {
   color: var(--primary-color);
+  display: block;
 }
 
 .hero__description {
